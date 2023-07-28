@@ -44,6 +44,18 @@ ul {
   font-family: "JetBrains Mono", monospace;
 }
 
+h1{
+  color:#ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+h1 span{
+  color: #00BFA6;
+}
+
+
 .page {
   width: 1000px;
   margin: 0 auto;
