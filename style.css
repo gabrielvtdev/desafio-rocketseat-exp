@@ -1,15 +1,26 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
   font-family: "JetBrains Mono", monospace;
   font-family: "Open Sans", sans-serif;
   background: #2c2b3d;
-
   min-width: 100vh;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 82px;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 71px;
 }
 
 nav {
@@ -35,8 +46,8 @@ ul li a {
   font-size: 14px;
 }
 
-ul li a:hover{
-  color: #00BFA6;
+ul li a:hover {
+  color: #00bfa6;
 }
 
 h1,
@@ -44,24 +55,56 @@ ul {
   font-family: "JetBrains Mono", monospace;
 }
 
-h1{
-  color:#ffffff;
+h1 {
+  color: #ffffff;
   font-size: 36px;
   font-weight: 700;
   line-height: 40px;
+  width: 605px;
 }
 
-h1 span{
-  color: #00BFA6;
+h1 span {
+  color: #00bfa6;
 }
 
-
-.page {
-  width: 1000px;
-  margin: 0 auto;
-  padding-top: 71px;
+p {
+  color: #c2c2c2;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  margin: 59px 0 39px;
 }
 
-main {
-  display: flex;
+p span {
+  color: #00bfa6;
+  font-weight: 700;
+}
+
+footer {
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 167px;
+}
+
+footer a:hover{
+  color: #00bfa6;
+}
+
+#line{
+  width: 568px;
+  height: 0px;
+  margin: 0 auto 27px;
+  border: 1px solid #00bfa6;
+}
+
+#padlock{
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
