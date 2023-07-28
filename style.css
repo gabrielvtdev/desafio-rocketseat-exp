@@ -92,18 +92,19 @@ footer {
   margin-top: 167px;
 }
 
-footer a:hover{
+footer a:hover {
   color: #00bfa6;
 }
 
-#line{
+#line {
   width: 568px;
   height: 0px;
   margin: 0 auto 27px;
   border: 1px solid #00bfa6;
 }
 
-#padlock{
+#padlock {
+  margin: 20px;
   position: fixed;
   left: 0;
   bottom: 0;
